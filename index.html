@@ -4,8 +4,27 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="0 15 -50" width="45" height="50" rotation="0 0 0"></a-box>
+      <a-box position="0 15 -50" width="45" height="50" rotation="0 0 0" color="green"></a-box>
+      <!-- Left Curve Walls-->
+      <a-box position="-30 15 -45" width="25" height="50" rotation="0 30 0" color="green"></a-box>
+      <a-box position="-30 15 83" width="25" height="50" rotation="0 -30 0" color="green"></a-box>
+      <a-box position="-47 15 -29.5" width="25" height="50" rotation="0 55 0" color="green"></a-box>
+      <a-box position="-47 15 68" width="25" height="50" rotation="0 -55 0" color="green"></a-box>
+      <a-box position="-57 15 -9" width="25" height="50" rotation="0 75 0" color="green"></a-box>
+      <a-box position="-57 15 47" width="25" height="50" rotation="0 -75 0" color="green"></a-box>
+      <a-box position="-60.2 15 20" width="35" height="50" rotation="0 90 0" color="green"></a-box>
 
+      <!-- Right Curve Walls-->
+      <a-box position="30 15 -45" width="25" height="50" rotation="0 -30 0" color="green"></a-box>
+      <a-box position="30 15 83" width="25" height="50" rotation="0 30 0" color="green"></a-box>
+      <a-box position="47 15 -29.5" width="25" height="50" rotation="0 -55 0" color="green"></a-box>
+      <a-box position="47 15 68" width="25" height="50" rotation="0 55 0" color="green"></a-box>
+      <a-box position="57 15 -9" width="25" height="50" rotation="0 -75 0" color="green"></a-box>
+      <a-box position="57 15 47" width="25" height="50" rotation="0 75 0" color="green"></a-box>
+      <a-box position="60.2 15 20" width="35" height="50" rotation="0 -90 0" color="green"></a-box>
+
+      
+      <!-- Exit -->
       <a-cylinder position="0 12 -50" radius="15" height="1" rotation="0 0 0" color="yellow"></a-cylinder>
       <a-cylinder position="0 32 -50" radius="15" height="3" rotation="0 0 0" color="yellow"></a-cylinder>
       <a-box position="-13 22 -48.8" width="3" height="20" rotation="0 0 0" color="yellow"></a-box>
@@ -18,19 +37,15 @@
       <a-box position="-8 27 -48.8" width="1" height="2" rotation="0 0 -60" color="yellow"></a-box>
       <a-box position="8 27 -48.8" width="1" height="2" rotation="0 0 60" color="yellow"></a-box>
       <a-box position="0 27.5 -48.8" width="1" height="15" rotation="0 0 90" color="yellow"></a-box>
-       <!-- Exit -->
-      <a-box position="0 15 -50" width="45" height="50" rotation="0 0 0"></a-box>
+       <!-- Entrance -->
+      <a-box position="0 15 88.4" width="45" height="50" rotation="0 0 0" color="green"></a-box>
 
 
 
-
-
-
-
-      <a-box position="-7 12 -30" width="1" height="198" rotation="90 0 0" color="yellow"></a-box>
-      <a-box position="7 12 -30" width="1" height="198" rotation="90 0 0" color="yellow"></a-box>
-      <a-box position="-1 12 -30" width="1" height="198" rotation="90 0 0" color="yellow"></a-box>
-      <a-box position="1 12 -30" width="1" height="198" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="-7 12 -30" width="1" height="195" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="7 12 -30" width="1" height="195" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="-1 12 -30" width="1" height="195" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="1 12 -30" width="1" height="195" rotation="90 0 0" color="yellow"></a-box>
 
       <!-- Right Glass  -->
       <a-box position="4 12 -30" width="5" height="5" rotation="90 0 0" color="blue"></a-box>
@@ -62,13 +77,20 @@
       <a-box position="-4 12 55" width="5" height="5" rotation="90 0 0" color="blue"></a-box>
       <a-box position="-4 12 62.5" width="5" height="5" rotation="90 0 0" color="blue"></a-box>
 
-      <a-cylinder position="0 12 82" radius="15" height="1" rotation="0 0 0" color="yellow"></a-cylinder>
+      <a-box position="0 12 77.9" width="20" height="20" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="0 12 68" width="20" height="1" rotation="90 0 0" color="yellow"></a-box>
+      <a-box position="-10.7 12 68.9" width="3" height="1" rotation="90 45 0" color="yellow"></a-box>
+      <a-box position="10.7 12 68.9" width="3" height="1" rotation="90 -45 0" color="yellow"></a-box>
+      <a-box position="-11.6 12 79.6" width="20" height="1" rotation="90 90 0" color="yellow"></a-box>
+      <a-box position="-10.5 12 79" width="20" height="2" rotation="90 90 0" color="yellow"></a-box>
+      <a-box position="11.6 12 79.6" width="20" height="1" rotation="90 90 0" color="yellow"></a-box>
+      <a-box position="10.5 12 79" width="20" height="2" rotation="90 90 0" color="yellow"></a-box>
 
       <!-- <a-camera wasd-controls="fly: true; acceleration: 200"></a-camera> -->
-       <a-camera position="0 20 -5"></a-camera>
+       <a-camera position="0 16 8"></a-camera>
 
 
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="150" height="200" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
   </body>
